@@ -50,7 +50,7 @@ def user_input(e):
     owner = document.getElementById('input4').value
 
     dog1 = Dog(breed, age, name, owner)
-    display(f'{dog1.name} is a {dog1.breed} owned by {dog1.owner} who is {dog1.age} years old.', target='output2')
+    display(f'{dog1.name} is a {dog1.breed} owned by {dog1.owner}; the dog is {dog1.age} years old.', target='output2')
         
         
 
